@@ -159,7 +159,7 @@ def main():
 	time_label.pack(side=tkinter.RIGHT)
 
 	root.mainloop()
-	interesting_data_write("score.txt", interesting_data)
+	interesting_data_write("data.txt", interesting_data)
 	plt.plot(interesting_data[1], interesting_data[2])
 	plt.show()
 	print('Modelling finished!')
